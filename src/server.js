@@ -8,5 +8,5 @@ app.use(express.json());
 app.use("/api", indexRoutes);
 
 app.listen(port, () => {
-  console.log("server  is up on " + port);
+  console.log("server  is up on  " + port);
 });
